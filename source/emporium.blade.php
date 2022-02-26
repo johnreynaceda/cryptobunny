@@ -147,7 +147,7 @@
               <img src="{{$page->baseUrl}}/assets/images/rabbit.png" class=" h-5" alt="">
               <h1 class="text-lg font-bold">Luna</h1>
             </div>
-            <span class="text-sm">a villager from the Eastern Village, a jolly-go-round person that is always able to represent herself from the village she came in.</span>
+            <span class="text-sm">A villager from the Eastern Village, a jolly-go-round person that is always able to represent herself from the village she came in.</span>
           </div>
         </a>
         <a href="#" class="group">
@@ -161,7 +161,7 @@
               <img src="{{$page->baseUrl}}/assets/images/rabbit.png" class=" h-5" alt="">
              <h1 class="text-lg font-bold">Ivanna</h1>
             </div>
-            <span class="text-sm">a villager from the Western Village, a family-oriented person that is willing to do for her family and to the community in general.</span>
+            <span class="text-sm">A villager from the Western Village, a family-oriented person that is willing to do for her family and to the community in general.</span>
           </div>
         </a>
         <a href="#" class="group">
@@ -189,6 +189,19 @@
             <h1 class="text-lg font-bold">Nathalia</h1>
           </div>
           <span class="text-sm">A villager from the Southern Village, a kindhearted person who loves helping her community.</span>
+        </div>
+        </a>
+        <a href="#" class="group">
+          <div class="w-full aspect-w-1 aspect-h-1 bg-gradient-to-r from-blue-500 to-green-400 h-72 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+            <img src="https://static.wikia.nocookie.net/sunny-bunnies/images/6/6e/Character_iriska.png" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="w-full h-full object-center object-cover group-hover:opacity-75">
+          </div>
+        <div class="mt-1 text-white">
+          
+          <div class="flex items-center space-x-1">
+            <img src="{{$page->baseUrl}}/assets/images/rabbit.png" class=" h-5" alt="">
+            <h1 class="text-lg font-bold">Ruth</h1>
+          </div>
+          <span class="text-sm">A villager from the Northeastern Village, a weird yet generous person who is willing to win for herself and to the village.</span>
         </div>
         </a>
 
