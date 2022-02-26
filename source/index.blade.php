@@ -68,14 +68,16 @@
                                 <h1 class="underline text-white text-4xl font-bold">The Game is live!</h1>
                                 <h1 class="text-white text-lg font-semibold mt-5">$CRB Token Address:</h1>
                                 <a href="#"
-                                    class="text-white underline text-lg ">0x158b972Ed36554AD09ee1c61250FfD318bB71Fcb</a>
+                                    class="text-white underline text-md ">0x158b972Ed36554AD09ee1c61250FfD318bB71Fcb</a>
                             </div>
                         </div>
                     </div>
                     <div class="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative">
                         <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
                             <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
-                            <img class="w-full lg:absolute border-l-2 border-blue-500 lg:inset-y-0 rounded-l-3xl lg:left-0 lg:h-full lg:w-auto shadow-4xl lg:max-w-none"
+                            <img class="w-full hidden lg:block lg:absolute border-l-2 border-blue-500 lg:inset-y-0 rounded-l-3xl lg:left-0 lg:h-full lg:w-auto shadow-4xl lg:max-w-none"
+                                src="https://images-na.ssl-images-amazon.com/images/I/71AWssVEjBL._RI_.jpg" alt="">
+                            <img class="w-full lg:hidden lg:absolute border-l-2 border-r-2 border-blue-500 lg:inset-y-0 rounded-l-3xl rounded-r-3xl lg:left-0 lg:h-full lg:w-auto shadow-4xl lg:max-w-none"
                                 src="https://images-na.ssl-images-amazon.com/images/I/71AWssVEjBL._RI_.jpg" alt="">
                         </div>
                     </div>
@@ -84,13 +86,13 @@
         </div>
 
         <!-- Feature section with screenshot -->
-        <div class="relative bg-gray-800 border-t-2 border-b-2 pt-16 sm:pt-24 lg:pt-0">
+        <div class="relative bg-gray-800 border-t-2 border-b-2 pt-16 sm:pt-10 lg:pt-0">
             <div class="mx-auto max-w-md px-4 text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl">
                 {{-- <div class="bg-black border-l-2 border-r-2 border-blue-500 flex justify-center">
             <img src="{{$page->baseUrl}}/assets/images/road_map.jpg" alt="">
         </div> --}}
                 <div class=" p-5 flex flex-col">
-                    <p class="text-justify text-xl font-semibold text-white">Inspired by the famous arcade game, Sonic and Friends, the story was centered on the five (5)
+                    <p class="text-justify lg:text-xl font-semibold text-white">Inspired by the famous arcade game, Sonic and Friends, the story was centered on the five (5)
                         passionate villagers from different kingdoms who aims to get the highest price that is found on the
                         center of Czen Castle, which is their final lap in getting all the Carrot Box in order to sustain
                         for their kingdoms who is under crisis. Due to food starvation, Nathalia- a villager from the
@@ -100,7 +102,7 @@
                         needs, resulting them to join the race for the carrot box. During the race, there is only one rule:
                         the faster they run, the more carrots they will get.</p>
 
-                        <p class="mt-32 text-lg text-white text-justify">
+                        <p class="lg:mt-32 mt-20 text-lg text-white text-justify">
                             The final location of the race is in the Czen Castle, wherein all the prizes awaits! And one of those prizes is found inside the Carrot Box, which contains the following prizes:
                         </p>
 
