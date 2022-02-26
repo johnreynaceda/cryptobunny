@@ -102,7 +102,7 @@
                         needs, resulting them to join the race for the carrot box. During the race, there is only one rule:
                         the faster they run, the more carrots they will get.</p>
 
-                        <p class="lg:mt-32 mt-20 text-lg text-white text-justify">
+                        <p class="lg:mt-20 mt-20 text-lg text-white text-justify">
                             The final location of the race is in the Czen Castle, wherein all the prizes awaits! And one of those prizes is found inside the Carrot Box, which contains the following prizes:
                         </p>
 
@@ -135,97 +135,80 @@
         <!-- Feature section with grid -->
         <div class="relative bg-gray-700 py-16 sm:py-24 lg:py-6">
             <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-                <h2 class=" text-xl font-bold tracking-wider text-white uppercase">Features</h2>
+                <h2 class=" text-4xl font-bold tracking-wider text-white uppercase">characters</h2>
                 <div class="mt-12">
-                    <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-2">
-                        <div class="pt-6">
-                            <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
-                                <div class="-mt-6">
-                                    <div>
-                                        <span
-                                            class="inline-flex items-center justify-center p-3 bg-gradient-to-r from-blue-500 to-green-600 rounded-md shadow-lg">
-                                            <!-- Heroicon name: outline/cloud-upload -->
-                                            <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                                viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
-                                            </svg>
-                                        </span>
-                                    </div>
-                                    <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Lorem Ipsum</h3>
-                                    <p class="mt-5 text-base text-gray-500">Lorem Ipsum is simply dummy text of the printing
-                                        and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                                        ever since the 1500s,</p>
-                                </div>
+                    <div class="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+                        <a href="#" class="group">
+                          <div class="w-full aspect-w-1 aspect-h-1 bg-gradient-to-r hover:scale-50 from-blue-500 h-72 to-green-400 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+                            <img src="https://static.wikia.nocookie.net/sunny-bunnies/images/3/36/Character_turbo.png" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="w-full h-full object-center object-cover group-hover:opacity-75">
+                          </div>
+                          <div class="mt-1 text-white">
+                            <div class="flex items-center space-x-1">
+                              <img src="{{$page->baseUrl}}/assets/images/rabbit.png" class=" h-5" alt="">
+                              <h1 class="text-lg font-bold">Luna</h1>
                             </div>
-                        </div>
-                        <div class="pt-6">
-                            <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
-                                <div class="-mt-6">
-                                    <div>
-                                        <span
-                                            class="inline-flex items-center justify-center p-3 bg-gradient-to-r from-blue-500 to-green-600 rounded-md shadow-lg">
-                                            <!-- Heroicon name: outline/cloud-upload -->
-                                            <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                                viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
-                                            </svg>
-                                        </span>
-                                    </div>
-                                    <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Lorem Ipsum</h3>
-                                    <p class="mt-5 text-base text-gray-500">Lorem Ipsum is simply dummy text of the printing
-                                        and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                                        ever since the 1500s,</p>
-                                </div>
+                            <span class="text-sm">A villager from the Eastern Village, a jolly-go-round person that is always able to represent herself from the village she came in.</span>
+                          </div>
+                        </a>
+                        <a href="#" class="group">
+                          <div class="w-full aspect-w-1 aspect-h-1 bg-gradient-to-r from-blue-500 to-green-400 h-72 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+                            <img src="https://static.wikia.nocookie.net/sunny-bunnies/images/5/55/Character_hopper.png" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="w-full h-full object-center object-cover group-hover:opacity-75">
+                          </div>
+                          
+                          <div class="mt-1 text-white">
+                            
+                            <div class="flex items-center space-x-1">
+                              <img src="{{$page->baseUrl}}/assets/images/rabbit.png" class=" h-5" alt="">
+                             <h1 class="text-lg font-bold">Ivanna</h1>
                             </div>
-                        </div>
-                        <div class="pt-6">
-                            <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
-                                <div class="-mt-6">
-                                    <div>
-                                        <span
-                                            class="inline-flex items-center justify-center p-3 bg-gradient-to-r from-blue-500 to-green-600 rounded-md shadow-lg">
-                                            <!-- Heroicon name: outline/cloud-upload -->
-                                            <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                                viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
-                                            </svg>
-                                        </span>
-                                    </div>
-                                    <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Lorem Ipsum</h3>
-                                    <p class="mt-5 text-base text-gray-500">Lorem Ipsum is simply dummy text of the printing
-                                        and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                                        ever since the 1500s,</p>
-                                </div>
+                            <span class="text-sm">A villager from the Western Village, a family-oriented person that is willing to do for her family and to the community in general.</span>
+                          </div>
+                        </a>
+                        <a href="#" class="group">
+                          <div class="w-full aspect-w-1 aspect-h-1 bg-gradient-to-r from-blue-500 to-green-400 h-72 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+                            <img src="https://static.wikia.nocookie.net/sunny-bunnies/images/8/8f/Character_boo.png" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="w-full h-full object-center object-cover group-hover:opacity-75">
+                          </div>
+                          <div class="mt-1 text-white">
+                          
+                            <div class="flex items-center space-x-1">
+                              <img src="{{$page->baseUrl}}/assets/images/rabbit.png" class=" h-5" alt="">
+                              <h1 class="text-lg font-bold">Quinne</h1>
                             </div>
+                            <span class="text-sm">A villager from the Northern Village, a caring person who wants to make her village known and famous than other villages.</span>
+                          </div>
+                        </a>
+                       
+                        <a href="#" class="group">
+                          <div class="w-full aspect-w-1 aspect-h-1 bg-gradient-to-r from-blue-500 to-green-400 h-72 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+                            <img src="https://static.wikia.nocookie.net/sunny-bunnies/images/b/ba/Character_svetik.png" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="w-full h-full object-center object-cover group-hover:opacity-75">
+                          </div>
+                        <div class="mt-1 text-white">
+                          
+                          <div class="flex items-center space-x-1">
+                            <img src="{{$page->baseUrl}}/assets/images/rabbit.png" class=" h-5" alt="">
+                            <h1 class="text-lg font-bold">Nathalia</h1>
+                          </div>
+                          <span class="text-sm">A villager from the Southern Village, a kindhearted person who loves helping her community.</span>
                         </div>
-                        <div class="pt-6">
-                            <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
-                                <div class="-mt-6">
-                                    <div>
-                                        <span
-                                            class="inline-flex items-center justify-center p-3 bg-gradient-to-r from-blue-500 to-green-600 rounded-md shadow-lg">
-                                            <!-- Heroicon name: outline/cloud-upload -->
-                                            <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                                viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
-                                            </svg>
-                                        </span>
-                                    </div>
-                                    <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Lorem Ipsum</h3>
-                                    <p class="mt-5 text-base text-gray-500">Lorem Ipsum is simply dummy text of the printing
-                                        and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                                        ever since the 1500s,</p>
-                                </div>
-                            </div>
+                        </a>
+                        <a href="#" class="group">
+                          <div class="w-full aspect-w-1 aspect-h-1 bg-gradient-to-r from-blue-500 to-green-400 h-72 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+                            <img src="https://static.wikia.nocookie.net/sunny-bunnies/images/6/6e/Character_iriska.png" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="w-full h-full object-center object-cover group-hover:opacity-75">
+                          </div>
+                        <div class="mt-1 text-white">
+                          
+                          <div class="flex items-center space-x-1">
+                            <img src="{{$page->baseUrl}}/assets/images/rabbit.png" class=" h-5" alt="">
+                            <h1 class="text-lg font-bold">Ruth</h1>
+                          </div>
+                          <span class="text-sm">A villager from the Northeastern Village, a weird yet generous person who is willing to win for herself and to the village.</span>
                         </div>
-
-
-
-                    </div>
+                        </a>
+                
+                        
+                
+                        <!-- More products... -->
+                      </div>
                 </div>
             </div>
         </div>
