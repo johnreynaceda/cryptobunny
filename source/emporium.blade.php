@@ -51,13 +51,10 @@
             </div>
 
             <div class="px-4 relative inline-block text-left">
-              <button type="button" class="group inline-flex justify-center text-sm font-medium text-gray-700 hover:text-gray-900" aria-expanded="false">
-                <span>Sizes</span>
-                <!-- Heroicon name: solid/chevron-down -->
-                <svg class="flex-shrink-0 -mr-1 ml-1 h-5 w-5 text-gray-400 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                  <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-                </svg>
-              </button>
+                <div class="flex flex-col items-center">
+                    <img src="{{$page->baseUrl}}/assets/images/pet-cage.png" class="flex-shrink-0 w-10" alt="">
+                    <span class="uppercase text-white font-semibold">BUY NEW BOX</span>
+                 </div>
 
               <!--
                 'Sizes' dropdown, show/hide based on dropdown state.
@@ -97,14 +94,10 @@
                 </div>
 
                 <div class="px-4 relative inline-block text-left">
-                  <button type="button" class="group inline-flex justify-center text-sm font-medium text-gray-700 hover:text-gray-900" aria-expanded="false">
-                    <span>Sizes</span>
-                    <!-- Heroicon name: solid/chevron-down -->
-                    <svg class="flex-shrink-0 -mr-1 ml-1 h-5 w-5 text-gray-400 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                      <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-                    </svg>
-                  </button>
-
+                    <div class="flex flex-col items-center">
+                        <img src="{{$page->baseUrl}}/assets/images/pet-cage.png" class="flex-shrink-0 w-10" alt="">
+                        <span class="uppercase text-white font-semibold">BUY NEW BOX</span>
+                     </div>
                   <!--
                     'Sizes' dropdown, show/hide based on dropdown state.
 
@@ -146,7 +139,7 @@
 
       <div class="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
         <a href="#" class="group">
-          <div class="w-full aspect-w-1 aspect-h-1 bg-gradient-to-r from-blue-500 to-green-400 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+          <div class="w-full aspect-w-1 aspect-h-1 bg-gradient-to-r hover:scale-50 from-blue-500 to-green-400 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
             <img src="https://static.wikia.nocookie.net/sunny-bunnies/images/b/b6/Turbo.png" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="w-full h-full object-center object-cover group-hover:opacity-75">
           </div>
         
