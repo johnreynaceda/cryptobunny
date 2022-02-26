@@ -139,28 +139,57 @@
 
       <div class="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
         <a href="#" class="group">
-          <div class="w-full aspect-w-1 aspect-h-1 bg-gradient-to-r hover:scale-50 from-blue-500 to-green-400 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
-            <img src="https://static.wikia.nocookie.net/sunny-bunnies/images/b/b6/Turbo.png" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="w-full h-full object-center object-cover group-hover:opacity-75">
+          <div class="w-full aspect-w-1 aspect-h-1 bg-gradient-to-r hover:scale-50 from-blue-500 h-72 to-green-400 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+            <img src="https://static.wikia.nocookie.net/sunny-bunnies/images/3/36/Character_turbo.png" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="w-full h-full object-center object-cover group-hover:opacity-75">
           </div>
-        
+          <div class="mt-1 text-white">
+            <div class="flex items-center space-x-1">
+              <img src="{{$page->baseUrl}}/assets/images/rabbit.png" class=" h-5" alt="">
+              <h1 class="text-lg font-bold">Luna</h1>
+            </div>
+            <span class="text-sm">a villager from the Eastern Village, a jolly-go-round person that is always able to represent herself from the village she came in.</span>
+          </div>
         </a>
         <a href="#" class="group">
-          <div class="w-full aspect-w-1 aspect-h-1 bg-gradient-to-r from-blue-500 to-green-400 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
-            <img src="https://static.wikia.nocookie.net/sunny-bunnies/images/5/5d/Hoper_Pose_00.png" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="w-full h-full object-center object-cover group-hover:opacity-75">
+          <div class="w-full aspect-w-1 aspect-h-1 bg-gradient-to-r from-blue-500 to-green-400 h-72 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+            <img src="https://static.wikia.nocookie.net/sunny-bunnies/images/5/55/Character_hopper.png" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="w-full h-full object-center object-cover group-hover:opacity-75">
           </div>
-        
+          
+          <div class="mt-1 text-white">
+            
+            <div class="flex items-center space-x-1">
+              <img src="{{$page->baseUrl}}/assets/images/rabbit.png" class=" h-5" alt="">
+             <h1 class="text-lg font-bold">Ivanna</h1>
+            </div>
+            <span class="text-sm">a villager from the Western Village, a family-oriented person that is willing to do for her family and to the community in general.</span>
+          </div>
         </a>
         <a href="#" class="group">
-          <div class="w-full aspect-w-1 aspect-h-1 bg-gradient-to-r from-blue-500 to-green-400 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
-            <img src="https://static.wikia.nocookie.net/sunny-bunnies/images/6/6b/Big_Boo.png" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="w-full h-full object-center object-cover group-hover:opacity-75">
+          <div class="w-full aspect-w-1 aspect-h-1 bg-gradient-to-r from-blue-500 to-green-400 h-72 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+            <img src="https://static.wikia.nocookie.net/sunny-bunnies/images/8/8f/Character_boo.png" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="w-full h-full object-center object-cover group-hover:opacity-75">
           </div>
-        
+          <div class="mt-1 text-white">
+          
+            <div class="flex items-center space-x-1">
+              <img src="{{$page->baseUrl}}/assets/images/rabbit.png" class=" h-5" alt="">
+              <h1 class="text-lg font-bold">Quinne</h1>
+            </div>
+            <span class="text-sm">A villager from the Northern Village, a caring person who wants to make her village known and famous than other villages.</span>
+          </div>
         </a>
+       
         <a href="#" class="group">
-          <div class="w-full aspect-w-1 aspect-h-1 bg-gradient-to-r from-blue-500 to-green-400 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
-            <img src="https://static.wikia.nocookie.net/sunny-bunnies/images/a/ad/Iris_Pose_01.png" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="w-full h-full object-center object-cover group-hover:opacity-75">
+          <div class="w-full aspect-w-1 aspect-h-1 bg-gradient-to-r from-blue-500 to-green-400 h-72 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+            <img src="https://static.wikia.nocookie.net/sunny-bunnies/images/b/ba/Character_svetik.png" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="w-full h-full object-center object-cover group-hover:opacity-75">
           </div>
-        
+        <div class="mt-1 text-white">
+          
+          <div class="flex items-center space-x-1">
+            <img src="{{$page->baseUrl}}/assets/images/rabbit.png" class=" h-5" alt="">
+            <h1 class="text-lg font-bold">Nathalia</h1>
+          </div>
+          <span class="text-sm">A villager from the Southern Village, a kindhearted person who loves helping her community.</span>
+        </div>
         </a>
 
         
