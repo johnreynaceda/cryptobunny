@@ -78,7 +78,7 @@
                             From: "translate-x-0"
                             To: "translate-x-full"
                         -->
-                        <div x-show="side" x-cloak
+                        <div x-show="side" x-cloak @click.away="side=false"
                         x-transition:enter="transform transition ease-in-out duration-500 sm:duration-700"
                         x-transition:enter-start="translate-x-full"
                         x-transition:enter-end="translate-x-0"
@@ -96,7 +96,7 @@
                                   </a>
                                 </h2>
                                 <div class="ml-3 flex h-7 items-center">
-                                  <button type="button" class="rounded-md bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+                                  <button @click="side=false" type="button" class="rounded-md bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
                                     <span class="sr-only">Close panel</span>
                                     <!-- Heroicon name: outline/x -->
                                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
