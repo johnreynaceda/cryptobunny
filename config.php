@@ -6,4 +6,5 @@ return [
     'title' => 'Jigsaw',
     'description' => 'Website description.',
     'collections' => [],
+   
 ];
