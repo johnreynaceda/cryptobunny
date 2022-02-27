@@ -140,7 +140,7 @@
                     <div class="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
                         <a href="#" class="group">
                           <div class="w-full aspect-w-1 aspect-h-1 bg-gradient-to-r hover:scale-50 from-blue-500 h-72 to-green-400 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
-                            <img src="https://static.wikia.nocookie.net/sunny-bunnies/images/3/36/Character_turbo.png" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="w-full h-full object-center object-cover group-hover:opacity-75">
+                            <img src="{{$page->baseUrl}}/assets/images/002.png" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="w-full h-full object-center object-cover group-hover:opacity-75">
                           </div>
                           <div class="mt-1 text-white">
                             <div class="flex items-center space-x-1">
@@ -152,7 +152,7 @@
                         </a>
                         <a href="#" class="group">
                           <div class="w-full aspect-w-1 aspect-h-1 bg-gradient-to-r from-blue-500 to-green-400 h-72 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
-                            <img src="https://static.wikia.nocookie.net/sunny-bunnies/images/5/55/Character_hopper.png" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="w-full h-full object-center object-cover group-hover:opacity-75">
+                            <img src="{{$page->baseUrl}}/assets/images/003.png" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="w-full h-full object-center object-cover group-hover:opacity-75">
                           </div>
                           
                           <div class="mt-1 text-white">
@@ -166,7 +166,7 @@
                         </a>
                         <a href="#" class="group">
                           <div class="w-full aspect-w-1 aspect-h-1 bg-gradient-to-r from-blue-500 to-green-400 h-72 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
-                            <img src="https://static.wikia.nocookie.net/sunny-bunnies/images/8/8f/Character_boo.png" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="w-full h-full object-center object-cover group-hover:opacity-75">
+                            <img src="{{$page->baseUrl}}/assets/images/000.png" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="w-full h-full object-center object-cover group-hover:opacity-75">
                           </div>
                           <div class="mt-1 text-white">
                           
@@ -180,7 +180,7 @@
                        
                         <a href="#" class="group">
                           <div class="w-full aspect-w-1 aspect-h-1 bg-gradient-to-r from-blue-500 to-green-400 h-72 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
-                            <img src="https://static.wikia.nocookie.net/sunny-bunnies/images/b/ba/Character_svetik.png" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="w-full h-full object-center object-cover group-hover:opacity-75">
+                            <img src="{{$page->baseUrl}}/assets/images/001.png" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="w-full h-full object-center object-cover group-hover:opacity-75">
                           </div>
                         <div class="mt-1 text-white">
                           
@@ -193,7 +193,7 @@
                         </a>
                         <a href="#" class="group">
                           <div class="w-full aspect-w-1 aspect-h-1 bg-gradient-to-r from-blue-500 to-green-400 h-72 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
-                            <img src="https://static.wikia.nocookie.net/sunny-bunnies/images/6/6e/Character_iriska.png" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="w-full h-full object-center object-cover group-hover:opacity-75">
+                            <img src="{{$page->baseUrl}}/assets/images/004.png" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="w-full h-full object-center object-cover group-hover:opacity-75">
                           </div>
                         <div class="mt-1 text-white">
                           
