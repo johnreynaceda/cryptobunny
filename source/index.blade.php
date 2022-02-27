@@ -21,7 +21,7 @@
 
                             </h1>
                             <p class="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-lg">Build your crypto bunny and
-                                win battles to earn tokens!</p>
+                                win races to earn tokens!</p>
                             <div class="mt-20">
                                 <ul role="list" class="mt-3 grid grid-cols-1 gap-5 sm:gap-6 sm:grid-cols-2 lg:grid-cols-3">
                                     <a href="https://www.facebook.com/groups/382558233200998/?ref=share" target="_blank"
@@ -64,7 +64,7 @@
                                 </ul>
                             </div>
 
-                            <div class="mt-10 flex items-center flex-col">
+                            <div class="mt-20 flex items-center flex-col">
                                 <h1 class="underline text-white text-4xl font-bold">The Game is live!</h1>
                                 <h1 class="text-white text-lg font-semibold mt-5">$CRB Token Address:</h1>
                                 <a href="#"
@@ -76,7 +76,7 @@
                         <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
                             <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
                             <img class="w-full hidden lg:block lg:absolute border-l-2 border-blue-500 lg:inset-y-0 rounded-l-3xl lg:left-0 lg:h-full lg:w-auto shadow-4xl lg:max-w-none"
-                                src="https://images-na.ssl-images-amazon.com/images/I/71AWssVEjBL._RI_.jpg" alt="">
+                                src="{{$page->baseUrl}}/assets/images/cryptobunny.jpg" alt="">
                             <img class="w-full lg:hidden lg:absolute border-l-2 border-r-2 border-blue-500 lg:inset-y-0 rounded-l-3xl rounded-r-3xl lg:left-0 lg:h-full lg:w-auto shadow-4xl lg:max-w-none"
                                 src="https://images-na.ssl-images-amazon.com/images/I/71AWssVEjBL._RI_.jpg" alt="">
                         </div>
@@ -145,9 +145,9 @@
                           <div class="mt-1 text-white">
                             <div class="flex items-center space-x-1">
                               <img src="{{$page->baseUrl}}/assets/images/rabbit.png" class=" h-5" alt="">
-                              <h1 class="text-lg font-bold">Luna</h1>
+                              <h1 class="text-lg font-bold">Ivanna</h1>
                             </div>
-                            <span class="text-sm">A villager from the Eastern Village, a jolly-go-round person that is always able to represent herself from the village she came in.</span>
+                            <span class="text-sm">A villager from the Western Village, a family-oriented person that is willing to do for her family and to the community in general.</span>
                           </div>
                         </a>
                         <a href="#" class="group">
@@ -159,9 +159,9 @@
                             
                             <div class="flex items-center space-x-1">
                               <img src="{{$page->baseUrl}}/assets/images/rabbit.png" class=" h-5" alt="">
-                             <h1 class="text-lg font-bold">Ivanna</h1>
+                             <h1 class="text-lg font-bold">Natalia</h1>
                             </div>
-                            <span class="text-sm">A villager from the Western Village, a family-oriented person that is willing to do for her family and to the community in general.</span>
+                            <span class="text-sm">A villager from the Southern Village, a kindhearted person who loves helping her community.</span>
                           </div>
                         </a>
                         <a href="#" class="group">
@@ -172,9 +172,9 @@
                           
                             <div class="flex items-center space-x-1">
                               <img src="{{$page->baseUrl}}/assets/images/rabbit.png" class=" h-5" alt="">
-                              <h1 class="text-lg font-bold">Quinne</h1>
+                              <h1 class="text-lg font-bold">Ruth</h1>
                             </div>
-                            <span class="text-sm">A villager from the Northern Village, a caring person who wants to make her village known and famous than other villages.</span>
+                            <span class="text-sm">A villager from the Northeastern Village, a weird yet generous person who is willing to win for herself and to the village.</span>
                           </div>
                         </a>
                        
@@ -186,9 +186,9 @@
                           
                           <div class="flex items-center space-x-1">
                             <img src="{{$page->baseUrl}}/assets/images/rabbit.png" class=" h-5" alt="">
-                            <h1 class="text-lg font-bold">Nathalia</h1>
+                            <h1 class="text-lg font-bold">Luna</h1>
                           </div>
-                          <span class="text-sm">A villager from the Southern Village, a kindhearted person who loves helping her community.</span>
+                          <span class="text-sm">A villager from the Eastern Village, a jolly-go-round person that is always able to represent herself from the village she came in.</span>
                         </div>
                         </a>
                         <a href="#" class="group">
@@ -199,9 +199,9 @@
                           
                           <div class="flex items-center space-x-1">
                             <img src="{{$page->baseUrl}}/assets/images/rabbit.png" class=" h-5" alt="">
-                            <h1 class="text-lg font-bold">Ruth</h1>
+                            <h1 class="text-lg font-bold">Quinne</h1>
                           </div>
-                          <span class="text-sm">A villager from the Northeastern Village, a weird yet generous person who is willing to win for herself and to the village.</span>
+                          <span class="text-sm">A villager from the Northern Village, a caring person who wants to make her village known and famous than other villages.</span>
                         </div>
                         </a>
                 
