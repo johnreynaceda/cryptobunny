@@ -8,7 +8,9 @@
         <title>CryptoBunny</title>
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
         <script defer src="https://unpkg.com/alpinejs@3.9.0/dist/cdn.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
         <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
+        {{-- <script defer src="{{ mix('js/meta.js', 'assets/build') }}"></script> --}}
         <style>
           [x-cloak] { display: none !important; }
         </style>
@@ -192,4 +194,5 @@
   
  
     </body>
+    @yield('scripts')
 </html>
