@@ -213,7 +213,7 @@
                             </div>
 
                             <div class="mt-20 flex items-center flex-col">
-                                <h1 class="underline text-white text-4xl font-bold">The Game is live!</h1>
+                                <h1 class="underline text-white text-4xl font-bold">936 CRB Sold! 2036 left to mint!</h1>
                                 <h1 class="text-white text-lg font-semibold mt-5">$CRB Token Address:</h1>
                                 <a href="#"
                                     class="text-white underline text-md ">0x158b972Ed36554AD09ee1c61250FfD318bB71Fcb</a>
